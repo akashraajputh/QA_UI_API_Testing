@@ -1,0 +1,17 @@
+BOOK DETAILS REPORT
+==================
+
+Search Book: Learning JavaScript Design Patterns
+
+EXTRACTED INFORMATION:
+Title     : Learning JavaScript Design Patterns
+Author    : Addy Osmani
+Publisher : O'Reilly Media
+
+TEST USER INFORMATION:
+Username  : Akashraajputh
+Password  : @@Akash350#
+
+EXTRACTION DATE: 2026-02-01T20:14:40.668Z
+
+STATUS: ✅ TEST COMPLETED SUCCESSFULLY
