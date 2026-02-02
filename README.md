@@ -172,4 +172,4 @@ Edit `playwright.config.js` to customize:
 
 ## Author
 
-Playwright Test Suite - Assignment
+Playwright Test Suite - Akash Kumar Singh
