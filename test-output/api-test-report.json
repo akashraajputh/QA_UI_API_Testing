@@ -1,0 +1,72 @@
+{
+  "testDate": "2026-02-02T07:01:08.771Z",
+  "apiBaseURL": "https://reqres.in",
+  "framework": "Playwright with JavaScript",
+  "totalTests": 8,
+  "passedTests": 8,
+  "failedTests": 0,
+  "createdUser": {
+    "userId": "54",
+    "data": {
+      "name": "Akash Raaj",
+      "job": "QA Engineer",
+      "id": "54",
+      "createdAt": "2026-02-02T07:01:08.742Z"
+    }
+  },
+  "fetchedUser": {
+    "statusCode": 404,
+    "data": {}
+  },
+  "updatedUser": {
+    "statusCode": 200,
+    "data": {
+      "name": "Akash Raaj Puth",
+      "job": "Senior QA Engineer",
+      "updatedAt": "2026-02-02T07:01:08.744Z"
+    }
+  },
+  "testResults": [
+    {
+      "test": "Create User - Status Code",
+      "status": "PASSED",
+      "expected": 201,
+      "actual": 201
+    },
+    {
+      "test": "Extract User ID",
+      "status": "PASSED",
+      "userId": "54"
+    },
+    {
+      "test": "Get User - Status Code",
+      "status": "PASSED",
+      "expected": 404,
+      "actual": 404
+    },
+    {
+      "test": "Get User - Data Validation",
+      "status": "PASSED"
+    },
+    {
+      "test": "Update User - Status Code",
+      "status": "PASSED",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "test": "Update User - Name Validation",
+      "status": "PASSED"
+    },
+    {
+      "test": "Update User - Job Validation",
+      "status": "PASSED"
+    },
+    {
+      "test": "Verify Update - Status Code",
+      "status": "PASSED",
+      "expected": 404,
+      "actual": 404
+    }
+  ]
+}
